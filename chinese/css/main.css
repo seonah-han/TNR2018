@@ -8,6 +8,10 @@
 
 
 
+
+
+
+
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -6679,6 +6683,10 @@ h4 {
 
 
 
+
+
+
+
 /*======================================*/
 
 
@@ -6705,6 +6713,10 @@ h4 {
     --pointgreen: #2b9768;
     --pointpurple: #8e53d8;
 }
+
+
+
+
 
 
 
@@ -6770,6 +6782,10 @@ body {
 .newLook-button a:hover {
     background-color: var(--pointblueHover);
 }
+
+
+
+
 
 
 
@@ -6966,6 +6982,10 @@ li.active>a {
 
 
 
+
+
+
+
 /*======================================*/
 
 
@@ -7065,6 +7085,10 @@ p.location-blurb-title {
     /*padding:0.2rem;*/
     /*mix-blend-mode: multiply;*/
 }
+
+
+
+
 
 
 
@@ -7178,7 +7202,6 @@ a.social-media-link:hover {
 @media only screen and (max-width:1134px) {
     #section-text {
         background-position: top center;
-       
     }
     #changing-text,
     #animate-text {
@@ -7192,6 +7215,10 @@ a.social-media-link:hover {
         font-size: 2rem;
     }
 }
+
+
+
+
 
 
 
@@ -7235,6 +7262,10 @@ a.social-media-link:hover {
 
 
 
+
+
+
+
 /*        alignment     */
 
 .location-blurb * {
@@ -7265,4 +7296,20 @@ a.banner-link {
 
 .st3 {
     fill: #334FA8;
+}
+
+
+
+
+
+/* qr code */
+
+.qrcode-wrapper {
+    display:block;
+    width:100%;
+    height:300px;
+    background-image: url(../images/qrcode-banff.jpg);
+    background-position:center center;
+     background-repeat: no-repeat;
+    background-size: 60%;
 }
