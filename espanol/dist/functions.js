@@ -3024,6 +3024,13 @@ var trueNorth = {
             var boxHeight = $(box).outerHeight(true);
 
             if (thisObj.boxNotExpanded(box)) {
+
+                var nameOfMasonryOpened = $(this).attr('id');
+        
+                gtag('event', 'Masonry Click', { 
+                    'event_category': 'Drop Down',
+                    'event_label': nameOfMasonryOpened });
+
                 thisObj.boxAnimation(box, boxHeight, row, nextRow, $this);
                 if ($this.find('#trueadrenaline').length > 0) {
                     trueadrenaline.playVideo();
